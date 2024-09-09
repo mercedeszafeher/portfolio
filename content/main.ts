@@ -1,11 +1,17 @@
 export const attributes = {
   hero: {
-    firstButton: {
+    _firstButton: {
       icon: 'briefcase-outline',
       link: '/#portfolio',
       text: 'Portfolio',
     },
-    heading: "I'm Paco Cu, and I create",
+    get firstButton() {
+      return this._firstButton;
+    },
+    set firstButton(value) {
+      this._firstButton = value;
+    },
+    heading: "I'm Mercedesz A.Feher , and I creativly create",
     image: '/img/hero.jpeg',
     secondButton: { icon: 'whatsapp', link: '/#about', text: 'About me' },
     social: {
