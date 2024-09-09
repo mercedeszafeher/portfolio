@@ -11,7 +11,7 @@ export const attributes = {
     set firstButton(value) {
       this._firstButton = value;
     },
-    heading: "I'm Mercedesz A.Feher , and I creativly create",
+    heading: "I'm Mercedesz A. Feher , and I creativly create",
     image: '/img/hero.jpeg',
     secondButton: { icon: 'whatsapp', link: '/#about', text: 'About me' },
     social: {
@@ -27,23 +27,23 @@ export const attributes = {
   },
   about: {
     heading: 'Who am I?',
-    image: '/img/about.jpeg',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus mi, sit amet consequat leo. Integer non dolor non elit sodales consequat. Integer tempor sollicitudin massa, vel sollicitudin ante dictum eu.\n',
+    image: '/img/portfolio.jpeg',
+    text: ' I’m an adventurous person who loves spending time outdoors, especially during the winter months in the snow. Gardening is one of my passions, and I share my home with a very stubborn cat. Originally from Hungary. I enjoy being around people, exploring new places, and collecting unique experiences from around the world. Oh and of course I am down for coffee any time!\n',
   },
   features: [
     {
       icon: 'monitor-screenshot',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus mi.\n',
+      text: 'I feel most at ease with UI/UX design, where I can fully express my creativity.\n',
       title: 'UI/UX',
     },
     {
       icon: 'draw',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus mi.\n',
+      text: 'I love designing various types of logos for companies that showcase their industry and occupation.\n',
       title: 'Logo Design',
     },
     {
       icon: 'xml',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus mi.\n',
+      text: 'I feel most comfortable with web development, where I can bring innovative ideas to life through coding and design.\n',
       title: 'Web Development',
     },
   ],
@@ -88,5 +88,5 @@ export const attributes = {
     ],
     title: 'My work',
   },
-  footer: { text: '© John Doe' },
+  footer: { text: '© Mercedesz A. Feher' },
 };
